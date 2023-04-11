@@ -5,7 +5,7 @@ import java.beans.PropertyEditorSupport;
 public class Main {
     public static void main(String[] args) {
         BonusMilesService bonus = new BonusMilesService();
-        int yourBonus=bonus.calculate(10_000);
+        int yourBonus = bonus.calculate(10_000);
         System.out.println("Спасибо за покупку, мы начислили вам " + yourBonus + " милей");
     }
 }
